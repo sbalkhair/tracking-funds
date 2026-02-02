@@ -1,0 +1,25 @@
+{
+  "projectName": "tracking-funds",
+  "mode": "file-router",
+  "typescript": true,
+  "packageManager": "pnpm",
+  "tailwind": true,
+  "addOnOptions": {
+    "prisma": {
+      "database": "postgres"
+    }
+  },
+  "git": true,
+  "version": 1,
+  "framework": "react-cra",
+  "chosenAddOns": [
+    "eslint",
+    "nitro",
+    "start",
+    "prisma",
+    "form",
+    "shadcn",
+    "better-auth",
+    "tanstack-query"
+  ]
+}
